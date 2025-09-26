@@ -27,7 +27,6 @@ Group pipeline: Combine steps → notebooks/group_pipeline.ipynb
 
 
 
-Repository structure (recommended)
 stroke-ml-preprocessing/
 │
 ├── data/
