@@ -20,37 +20,3 @@ Member 6: Dimensionality Reduction (PCA) + PCA scatter — notebooks/member6_pca
 
 Group pipeline: Combine steps → notebooks/group_pipeline.ipynb
 
-(Replace notebook filenames with your exact filenames if they differ.)
-
-
-
-
-
-
-stroke-ml-preprocessing/
-│
-├── data/
-│   ├── raw/                 # put original CSV here (readonly)
-│   │   └── healthcare-dataset-stroke-data.csv
-│   └── processed/           # each member saves their output here
-│       ├── member1_missing_labelencoded.csv
-│       ├── member2_onehot.csv
-│       ├── member3_outliers_removed.csv
-│       ├── member4_scaled_standard.csv
-│       ├── member5_features.csv
-│       ├── member6_pca2.csv
-│       └── group_final_processed.csv/.xlsx
-│
-├── notebooks/
-│   ├── member1_missing_labelencoding.ipynb
-│   ├── member2_onehot_encoding.ipynb
-│   ├── member3_outlier_removal.ipynb
-│   ├── member4_scaling.ipynb
-│   ├── member5_feature_engineering.ipynb
-│   ├── member6_pca.ipynb
-│   └── group_pipeline.ipynb
-│
-├── plots/                   # saved high-quality figures (png)
-├── README.md
-├── requirements.txt
-└── .gitignore
